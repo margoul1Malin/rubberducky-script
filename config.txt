@@ -1,0 +1,34 @@
+#MODE (Recon, Upload, PKI, ReverseShell, Custom)
+mode=PKI
+lang=US
+targetSys=Windows
+
+############################ Additional settings required for Recon
+serverType=
+server=
+sshServer=
+sshPassword=
+sshServerFolder=
+
+############################ Additional settings required for ReverseShell
+rHost=123.123.123.123
+rPort=5555
+shellType=Windows ConPty Shell
+
+############################ Additional settings required for PKI (Yubikey/Onlykey)
+
+UserOrBoot=1
+
+PKIUname=
+PKIPass=
+
+############################ Additional settings required for Custom
+userEntry=
+
+############################ Additional settings required for Upload
+uploadCmd=
+remoteFile=
+outputFile=
+Automatic=
+autoTool=
+    
